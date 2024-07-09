@@ -1,0 +1,455 @@
+messages.log
+2024-05-24 09:20:51
+
+pdf_method | 10.1093/pcp/pcw016
+
+```json
+{"SPECIES": "Physcomitrella patens", "ENZYME_COMMON_NAME": "PpHCT1", "ENZYME_FULL_NAME": "hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase", "GENBANK": "NA", "UNIPROT_ID": "NA", "ALT_ID": "NA", "SUBSTRATE": "p-coumaroyl-CoA;shikimate;3-hydroxybenzoate;2,5-dihydroxybenzoate;2,3-dihydroxybenzoate;3,4-dihydroxybenzoate;3-aminobenzoate;3-hydroxyanthranilate;5-hydroxyanthranilate;catechol;hydroquinone", "PRODUCT": "p-coumaroyl shikimate;p-coumaroyl 3-hydroxybenzoate;p-coumaroyl gentisate;p-coumaroyl 2,3-dihydroxybenzoate;p-coumaroyl protocatechuate;p-coumaroyl 3-aminobenzoate;p-coumaroyl 3-hydroxyanthranilate;p-coumaroyl 5-hydroxyanthranilate;p-coumaroyl catechol;p-coumaroyl hydroquinone"}
+{"SPECIES": "Selaginella moellendorffii", "ENZYME_COMMON_NAME": "SmHCT1a", "ENZYME_FULL_NAME": "hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase", "GENBANK": "NA", "UNIPROT_ID": "NA", "ALT_ID": "NA", "SUBSTRATE": "p-coumaroyl-CoA;shikimate;3-hydroxybenzoate;2,5-dihydroxybenzoate;2,3-dihydroxybenzoate;3,4-dihydroxybenzoate;3-aminobenzoate;3-hydroxyanthranilate;5-hydroxyanthranilate;catechol;hydroquinone", "PRODUCT": "p-coumaroyl shikimate;p-coumaroyl 3-hydroxybenzoate;p-coumaroyl gentisate;p-coumaroyl 2,3-dihydroxybenzoate;p-coumaroyl protocatechuate;p-coumaroyl 3-aminobenzoate;p-coumaroyl 3-hydroxyanthranilate;p-coumaroyl 5-hydroxyanthranilate;p-coumaroyl catechol;p-coumaroyl hydroquinone"}
+{"SPECIES": "Pinus radiata", "ENZYME_COMMON_NAME": "PrHCT", "ENZYME_FULL_NAME": "hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase", "GENBANK": "NA", "UNIPROT_ID": "NA", "ALT_ID": "NA", "SUBSTRATE": "p-coumaroyl-CoA;shikimate;3-hydroxybenzoate;2,5-dihydroxybenzoate;2,3-dihydroxybenzoate;3,4-dihydroxybenzoate;3-aminobenzoate;3-hydroxyanthranilate;5-hydroxyanthranilate;catechol;hydroquinone", "PRODUCT": "p-coumaroyl shikimate;p-coumaroyl 3-hydroxybenzoate;p-coumaroyl gentisate;p-coumaroyl 2,3-dihydroxybenzoate;p-coumaroyl protocatechuate;p-coumaroyl 3-aminobenzoate;p-coumaroyl 3-hydroxyanthranilate;p-coumaroyl 5-hydroxyanthranilate;p-coumaroyl catechol;p-coumaroyl hydroquinone"}
+{"SPECIES": "Panicum virgatum", "ENZYME_COMMON_NAME": "PvHCT2a", "ENZYME_FULL_NAME": "hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase", "GENBANK": "NA", "UNIPROT_ID": "NA", "ALT_ID": "NA", "SUBSTRATE": "p-coumaroyl-CoA;shikimate;3-hydroxybenzoate;2,5-dihydroxybenzoate;2,3-dihydroxybenzoate;3,4-dihydroxybenzoate;3-aminobenzoate;3-hydroxyanthranilate;5-hydroxyanthranilate;catechol;hydroquinone", "PRODUCT": "p-coumaroyl shikimate;p-coumaroyl 3-hydroxybenzoate;p-coumaroyl gentisate;p-coumaroyl 2,3-dihydroxybenzoate;p-coumaroyl protocatechuate;p-coumaroyl 3-aminobenzoate;p-coumaroyl 3-hydroxyanthranilate;p-coumaroyl 5-hydroxyanthranilate;p-coumaroyl catechol;p-coumaroyl hydroquinone"}
+{"SPECIES": "Populus trichocarpa", "ENZYME_COMMON_NAME": "PtHCT6", "ENZYME_FULL_NAME": "hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase", "GENBANK": "NA", "UNIPROT_ID": "NA", "ALT_ID": "NA", "SUBSTRATE": "p-coumaroyl-CoA;shikimate;3-hydroxybenzoate;2,5-dihydroxybenzoate;2,3-dihydroxybenzoate;3,4-dihydroxybenzoate;3-aminobenzoate;3-hydroxyanthranilate;5-hydroxyanthranilate;catechol;hydroquinone", "PRODUCT": "p-coumaroyl shikimate;p-coumaroyl 3-hydroxybenzoate;p-coumaroyl gentisate;p-coumaroyl 2,3-dihydroxybenzoate;p-coumaroyl protocatechuate;p-coumaroyl 3-aminobenzoate;p-coumaroyl 3-hydroxyanthranilate;p-coumaroyl 5-hydroxyanthranilate;p-coumaroyl catechol;p-coumaroyl hydroquinone"}
+{"SPECIES": "Arabidopsis thaliana", "ENZYME_COMMON_NAME": "AtHCT", "ENZYME_FULL_NAME": "hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyltransferase", "GENBANK": "NA", "UNIPROT_ID": "NA", "ALT_ID": "NA", "SUBSTRATE": "p-coumaroyl-CoA;shikimate;3-hydroxybenzoate;2,5-dihydroxybenzoate;2,3-dihydroxybenzoate;3,4-dihydroxybenzoate;3-aminobenzoate;3-hydroxyanthranilate;5-hydroxyanthranilate;catechol;hydroquinone", "PRODUCT": "p-coumaroyl shikimate;p-coumaroyl 3-hydroxybenzoate;p-coumaroyl gentisate;p-coumaroyl 2,3-dihydroxybenzoate;p-coumaroyl protocatechuate;p-coumaroyl 3-aminobenzoate;p-coumaroyl 3-hydroxyanthranilate;p-coumaroyl 5-hydroxyanthranilate;p-coumaroyl catechol;p-coumaroyl hydroquinone"}
+```
+--------------------
+
+text_method | 10.1093/pcp/pcw016
+
+```json
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;shikimate",
+  "PRODUCT": "p-coumaroyl shikimate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;gentisate",
+  "PRODUCT": "p-coumaroyl gentisate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;3-hydroxyanthranilate",
+  "PRODUCT": "p-coumaroyl 3-hydroxyanthranilate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;2,3-dihydroxybenzoate",
+  "PRODUCT": "p-coumaroyl 2,3-dihydroxybenzoate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;catechol",
+  "PRODUCT": "p-coumaroyl catechol"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;protocatechuate",
+  "PRODUCT": "p-coumaroyl protocatechuate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;5-hydroxyanthranilate",
+  "PRODUCT": "p-coumaroyl 5-hydroxyanthranilate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;3-hydroxybenzoate",
+  "PRODUCT": "p-coumaroyl 3-hydroxybenzoate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;3-aminobenzoate",
+  "PRODUCT": "p-coumaroyl 3-aminobenzoate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvHCT2a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "AGM90558.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;hydroquinone",
+  "PRODUCT": "p-coumaroyl hydroquinone"
+}
+{
+  "SPECIES": "Arabidopsis thaliana",
+  "ENZYME_COMMON_NAME": "AtHCT",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "NP_199704.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "At5g48930",
+  "SUBSTRATE": "p-coumaroyl-CoA;shikimate",
+  "PRODUCT": "p-coumaroyl shikimate"
+}
+{
+  "SPECIES": "Populus trichocarpa",
+  "ENZYME_COMMON_NAME": "PtHCT6",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "XP_006368492.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;shikimate",
+  "PRODUCT": "p-coumaroyl shikimate"
+}
+{
+  "SPECIES": "Pinus radiata",
+  "ENZYME_COMMON_NAME": "PrHCT",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "ABO52899.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;shikimate",
+  "PRODUCT": "p-coumaroyl shikimate"
+}
+{
+  "SPECIES": "Selaginella moellendorffii",
+  "ENZYME_COMMON_NAME": "SmHCT1a",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "XP_002991534.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;shikimate",
+  "PRODUCT": "p-coumaroyl shikimate"
+}
+{
+  "SPECIES": "Physcomitrella patens",
+  "ENZYME_COMMON_NAME": "PpHCT1",
+  "ENZYME_FULL_NAME": "Hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase",
+  "GENBANK": "KU513965",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "Pp3c2_29140V1.1",
+  "SUBSTRATE": "p-coumaroyl-CoA;shikimate",
+  "PRODUCT": "p-coumaroyl shikimate"
+}
+```
+~~~~~~~~~~~~~~~~~~~~
+
+pdf_method | 10.1093/plphys/kiac035
+
+```json
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvFMT",
+  "ENZYME_FULL_NAME": "Feruloyl-CoA monolignol transferase",
+  "GENBANK": "XM_039943249.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "Pavir.3KG495300",
+  "SUBSTRATE": "Feruloyl-CoA; p-coumaroyl-CoA; Monolignols",
+  "PRODUCT": "Monolignol ferulates; Monolignol p-coumarates"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbFMT",
+  "ENZYME_FULL_NAME": "Feruloyl-CoA monolignol transferase",
+  "GENBANK": "XM_002441921.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "Feruloyl-CoA; p-coumaroyl-CoA; Monolignols",
+  "PRODUCT": "Monolignol ferulates; Monolignol p-coumarates"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbPMT",
+  "ENZYME_FULL_NAME": "p-Coumaroyl-CoA monolignol transferase",
+  "GENBANK": "XM_002439193.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA; Monolignols",
+  "PRODUCT": "Monolignol p-coumarates"
+}
+{
+  "SPECIES": "Zea mays",
+  "ENZYME_COMMON_NAME": "ZmFMT",
+  "ENZYME_FULL_NAME": "Feruloyl-CoA monolignol transferase",
+  "GENBANK": "Zm00001d035246_T001",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "Feruloyl-CoA; p-coumaroyl-CoA; Monolignols",
+  "PRODUCT": "Monolignol ferulates; Monolignol p-coumarates"
+}
+```
+
+--------------------
+
+text_method | 10.1093/plphys/kiac035
+
+```json
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbPMT",
+  "ENZYME_FULL_NAME": "p-coumaroyl-CoA monolignol transferase",
+  "GENBANK": "XM_002439193.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl p-coumarate"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbPMT",
+  "ENZYME_FULL_NAME": "p-coumaroyl-CoA monolignol transferase",
+  "GENBANK": "XM_002439193.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl p-coumarate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvPMT",
+  "ENZYME_FULL_NAME": "p-coumaroyl-CoA monolignol transferase",
+  "GENBANK": "XM_039943249.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl p-coumarate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvPMT",
+  "ENZYME_FULL_NAME": "p-coumaroyl-CoA monolignol transferase",
+  "GENBANK": "XM_039943249.1",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl p-coumarate"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "XM_002441921.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "feruloyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl ferulate"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "XM_002441921.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "feruloyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl ferulate"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "XM_002441921.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl p-coumarate"
+}
+{
+  "SPECIES": "Sorghum bicolor",
+  "ENZYME_COMMON_NAME": "SbFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "XM_002441921.2",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl p-coumarate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Pavir.3KG495300",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "feruloyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl ferulate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Pavir.3KG495300",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "feruloyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl ferulate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Pavir.3KG495300",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl p-coumarate"
+}
+{
+  "SPECIES": "Panicum virgatum",
+  "ENZYME_COMMON_NAME": "PvFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Pavir.3KG495300",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl p-coumarate"
+}
+{
+  "SPECIES": "Zea mays",
+  "ENZYME_COMMON_NAME": "ZmFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Zm00001d035246_T001",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "feruloyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl ferulate"
+}
+{
+  "SPECIES": "Zea mays",
+  "ENZYME_COMMON_NAME": "ZmFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Zm00001d035246_T001",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;coniferyl alcohol",
+  "PRODUCT": "coniferyl p-coumarate"
+}
+{
+  "SPECIES": "Zea mays",
+  "ENZYME_COMMON_NAME": "ZmFMT",
+  "ENZYME_FULL_NAME": "feruloyl-CoA monolignol transferase",
+  "GENBANK": "Zm00001d035246_T001",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "p-coumaroyl-CoA;sinapyl alcohol",
+  "PRODUCT": "sinapyl p-coumarate"
+}
+```
+~~~~~~~~~~~~~~~~~~~~
+
+pdf_method | 10.1016/j.jbc.2022.101806
+
+```json
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "BOS",
+  "ENZYME_FULL_NAME": "β-ODAP synthetase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "oxalyl-CoA",
+  "PRODUCT": "β-ODAP"
+}
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "BOS",
+  "ENZYME_FULL_NAME": "β-ODAP synthetase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "L-DAPA",
+  "PRODUCT": "β-ODAP"
+}
+```
+--------------------
+
+text_method | 10.1016/j.jbc.2022.101806
+
+```json
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "BOS",
+  "ENZYME_FULL_NAME": "β-ODAP synthase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "oxalyl-CoA;L-α,β-diaminopropionic acid",
+  "PRODUCT": "β-ODAP"
+}
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "BOS",
+  "ENZYME_FULL_NAME": "β-ODAP synthase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "acetyl-CoA;L-α,β-diaminopropionic acid",
+  "PRODUCT": "NA"
+}
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "BOS",
+  "ENZYME_FULL_NAME": "β-ODAP synthase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "malonyl-CoA;L-α,β-diaminopropionic acid",
+  "PRODUCT": "NA"
+}
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "BOS",
+  "ENZYME_FULL_NAME": "β-ODAP synthase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "glutaryl-CoA;L-α,β-diaminopropionic acid",
+  "PRODUCT": "NA"
+}
+{
+  "SPECIES": "Lathyrus sativus",
+  "ENZYME_COMMON_NAME": "OCS",
+  "ENZYME_FULL_NAME": "oxalyl-CoA synthetase",
+  "GENBANK": "NA",
+  "UNIPROT_ID": "NA",
+  "ALT_ID": "NA",
+  "SUBSTRATE": "oxalic acid;CoA",
+  "PRODUCT": "oxalyl-CoA"
+}
+```
+~~~~~~~~~~~~~~~~~~~~
