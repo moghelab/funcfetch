@@ -37,6 +37,24 @@ BAHD_acyltransferase_OR_hydroxycinnamoyl-step1-ncbiQuery.txt
 BAHD_acyltransferase_OR_hydroxycinnamoyl-step1-ncbiSummary-failedScreen.txt
 BAHD_acyltransferase_OR_hydroxycinnamoyl-step1-ncbiSummary.txt
 ```
+The .log file will note the parameters used and the output
+```
+Your selections are as follows:
+CONFIG_FILE: bahd_step1_efetch.config
+EMAIL: ....
+APIKEY: ....
+TOOL: biopython
+QUERY: BAHD acyltransferase OR hydroxycinnamoyl
+JOURNALS_LIST: main_journalList.tab
+FILTER REVIEWS: yes
+KEYWORDS_LIST: main_keywordsList.tab.fil
+USE_ELINK: no
+
+Output stats:
+# of hits to Initial query: 667
+Total # of hits to Initial query: 667
+# of abstracts in Initial after all filters applied: 461
+```
 Some of these files will be passed on to Step 2
 
 ## Step 2: Use LLM to screen abstracts
@@ -82,4 +100,7 @@ This script will create two files -- a .log file and a .tax file. The .tax file 
 TITLE   DOI     SPECIES Family  Kingdom ENZYME_COMMON_NAME      ENZYME_FULL_NAME        GENBANK UNIPROT_ID      ALT_ID  SUBSTRATE       PRODUCT FLAG
 Analysing a Group of Homologous BAHD Enzymes Provides Insights into the Evolutionary Transition of Rosmarinic Acid Synthases from Hydroxycinnamoyl-CoA:Shikimate/Quinate Hydroxycinnamoyl Transferases.    10.3390/plants13040512  Mentha longifolia       4136|Lamiaceae  33090|Viridiplantae     MlAT1   Hydroxycinnamoyl-CoA:Shikimate/Quinate Hydroxycinnamoyl Transferase     NA      NA      NA         p-coumaroyl-CoA; shikimate      p-coumaroyl shikimate   pass
 ```
+This file can be opened in Excel to manually curate the rest of the way. This curation can be done in a stepwise manner. You may see the Excel files deposited in the Minimally Curated Sets folder to see how we performed this curation.
 
+## Questions/concerns
+If you have any questions or concerns, or just want to thank us, email Nathaniel Smith (nss97) or Gaurav Moghe (gdm67). We have Cornell email addresses. 
