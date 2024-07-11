@@ -1,0 +1,15 @@
+Invalid entries for pdf method:
+{
+    "SPECIES": "Arabidopsis thaliana",
+    "ENZYME_FULL_NAME": "Putrescine Hydroxycinnamoyl Transferase",
+    "GENBANK": "NP_190301.2",
+    "UNIPROT_ID": "NA",
+    "ALT_ID": "AT3G47170",
+    "SUBSTRATE": "putrescine; caffeoyl-CoA; feruloyl-CoA;",
+    "PRODUCT": "mono/di-caffeoyl putrescine",
+    "TITLE": "Structural and Biochemical Insights Into Two BAHD Acyltransferases (AtSHT and AtSDT) Involved in Phenolamide Biosynthesis.",
+    "DOI": "10.3389/fpls.2020.610118"
+}
+
+----------------------------------------
+
