@@ -40,3 +40,46 @@ BAHD_acyltransferase_OR_hydroxycinnamoyl-step1-ncbiSummary.txt
 Some of these files will be passed on to Step 2
 
 ## Step 2: Use LLM to screen abstracts
+## Step 3: Get papers using Zotero
+## Step 4: Use LLM to extract activity and metadata
+## Step 5: Filter
+```console
+python funcfetch_step5.py species.taxonomy BAHD_acyltransferase_or_hydroxycinnamoyl_transferase_merge_method.flag.tsv
+Reading Species info...
+Parsing FuncFetch output file...
+>>>Missing: Saccharothrix_espanensis --> Taxonomy added as NA
+>>>Missing: Saccharothrix_espanensis --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Apple_tree --> Taxonomy added as NA
+>>>Missing: Eggplant_(Solanum --> Taxonomy added as NA
+>>>Missing: Chicory_(Cichorium --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Dendranthema_× --> Taxonomy added as NA
+>>>Missing: Physcomitrella_patens --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Lycopersicon_esculentum --> Taxonomy added as NA
+>>>Missing: Physcomitrella_patens --> Taxonomy added as NA
+>>>Missing: Physcomitrella_patens --> Taxonomy added as NA
+>>>Missing: Physcomitrella_patens --> Taxonomy added as NA
+# of species with activity info: 1527
+# of plant species with activity info: 1455
+# of bacterial species with activity info: 15
+# of other species with activity info: 57
+Done!
+```
+This script will create two files -- a .log file and a .tax file. The .tax file will have the taxonomic associations in a tabular format
+```
+TITLE   DOI     SPECIES Family  Kingdom ENZYME_COMMON_NAME      ENZYME_FULL_NAME        GENBANK UNIPROT_ID      ALT_ID  SUBSTRATE       PRODUCT FLAG
+Analysing a Group of Homologous BAHD Enzymes Provides Insights into the Evolutionary Transition of Rosmarinic Acid Synthases from Hydroxycinnamoyl-CoA:Shikimate/Quinate Hydroxycinnamoyl Transferases.    10.3390/plants13040512  Mentha longifolia       4136|Lamiaceae  33090|Viridiplantae     MlAT1   Hydroxycinnamoyl-CoA:Shikimate/Quinate Hydroxycinnamoyl Transferase     NA      NA      NA         p-coumaroyl-CoA; shikimate      p-coumaroyl shikimate   pass
+```
+
