@@ -1,5 +1,8 @@
 # FuncFetch
-<img src = "https://github.com/moghelab/funcfetch/blob/main/images/goldenRetriever.jpg" width="190" height="150" align="right"> 
+<figure>
+  <img src = "https://github.com/moghelab/funcfetch/blob/main/images/goldenRetriever.jpg" width="190" height="150" align="right"> 
+  <figcaption>Fetching Function? Use FuncFetch!</figcaption>
+</figure>figure>
 
 The development of the FuncFetch workflow was funded by the National Science Foundation IOS-Plant Genome Research Program [Award #2310395](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2310395&HistoricalAwards=false). Additional project details can be found on the [Moghe Lab Tools](https://tools.moghelab.org/funczymedb) website. This Repository is meant to version-control and share the scripts and the workflow. The outputs of this workflow can be found on the Moghe Lab Tools website as well as the [FuncZymeDB repository](https://github.com/moghelab/funczymedb) 
 
