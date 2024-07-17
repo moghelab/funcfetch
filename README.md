@@ -111,9 +111,11 @@ python funcfetch_step2.py -h
 This step will produce some JSONL files that are the input and output for the OpenAI batch API run. They will look like the following:
 * ENZYME_FAMILY_batch_input.jsonl
 * ENZYME_FAMILY_batch_output.jsonl
+
 Additionally, the script with produce human and machine readable files detailing the filtered papers and their score as relevant or irrelevant:
 * ENZYME_FAMILY_filtered_abstracts.tsv
 * ENZYME_FAMILY_filtered_abstracts.txt
+
 The RIS format file is the most important output and required as input into Zotero for Step 3:
 * ENZYME_FAMILY_relevant_papers.ris
 
