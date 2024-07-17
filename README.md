@@ -12,7 +12,7 @@ The development of the FuncFetch workflow was funded by the National Science Fou
 # FuncFetch workflow scripts
 
 ## Step 1: Retrieve paper titles and abstracts from PubMed
-Edit the config file. You can find the template config file in the config folder in this repository.
+Edit the Step 1 config file. You can find the template config file in the config folder in this repository.
 ```
 [entrez]
 email = ENTER_YOUR_EMAIL
@@ -21,7 +21,7 @@ requests_per_second = 200
 tool = biopython
 
 [query_settings]
-query = BAHD acyltransferase OR hydroxycinnamoyl
+query = YOUR_ENZYME_FAMILY_QUERY
 
 [journal_list]
 journallist = main_journalsList.tab
@@ -67,7 +67,55 @@ Some of these files will be passed on to Step 2
 
 ## Step 2: Use LLM to screen abstracts
 
+If you don't already have an account with OpenAI, make one.
+https://platform.openai.com/signup
 
+Navigate to the OpenAI API platform dashboard and generate a secret key under "API Keys" if you don't already have one. Per OpenAI's recommendations: "Do not share your API key with others, or expose it in the browser or other client-side code." This API key will be required to run Step 2 and Step 4, so record it in a secure location.
+
+Edit the Step 2 config file. You can find the template config file in the config folder in this repository.
+```
+[openai]
+key = YOUR_OPENAI_API_KEY
+# The organization field is optional and only necessary if your openai user account belongs to multiple organizations.
+organization = 
+
+[rate_limit]
+# Request limits may vary depending on the OpenAI account and policies. For more information on limits, look under "Organization" "Limits" in the settings section of the OpenAI API platform.
+requests_per_minute = 5000
+
+[model_settings]
+# We tested the FuncFetch workflow with the gpt-4-turbo-2024-04-09 model, but feel free to swap in a more recent model.
+model = gpt-4-turbo-2024-04-09
+temperature = 0.5
+
+[query_settings]
+# We recommend using the same query for all workflow steps, as this replicates the testing conditions.
+query = YOUR_ENZYME_FAMILY_QUERY
+
+[questions]
+question_11 = Is this likely a paper that describes the biochemical (i.e. catalytic) activity of a {query} enzyme? Ideally, this confirmation would include an in vitro biochemical assay. Answer only with a 1 or 0, corresponding to yes or no respectively.
+question_10 = Is this likely a paper that demonstrates the biochemical (i.e. catalytic) activity of a {query} enzyme? Ideally, this confirmation would include an in vitro biochemical assay. Answer only with a 1 or 0, corresponding to yes or no respectively.
+question_9 = Is this likely a paper that directly tests the biochemical (i.e. catalytic) activity of a {query} enzyme? Ideally, this confirmation would include an in vitro biochemical assay. Answer only with a 1 or 0, corresponding to yes or no respectively.
+question_6 = Is this abstract likely to describe a paper that directly tests the biochemical (i.e. catalytic) activity of a {query} enzyme? Ideally, this confirmation would include an in vitro biochemical assay. Answer only with a 1 or 0, corresponding to yes or no respectively.
+question_3 = Is this abstract likely to describe a paper that conducted a direct assay of a {query} enzyme catalyzing a reaction with a chemical substrate? Answer only with a 1 or 0, corresponding to yes or no respectively.
+```
+
+Run the script
+```console
+python funcfetch_step2.py --config funcfetch_step2.config --abstracts ENZYME_FAMILY-step1-ncbiAbstracts.txt --summary ENZYME_FAMILY-step1-ncbiSummary.txt
+
+# For details on arguments and parameters run this line:
+python funcfetch_step2.py -h
+```
+
+This step will produce some JSONL files that are the input and output for the OpenAI batch API run. They will look like the following:
+* ENZYME_FAMILY_batch_input.jsonl
+* ENZYME_FAMILY_batch_output.jsonl
+Additionally, the script with produce human and machine readable files detailing the filtered papers and their score as relevant or irrelevant:
+* ENZYME_FAMILY_filtered_abstracts.tsv
+* ENZYME_FAMILY_filtered_abstracts.txt
+The RIS format file is the most important output and required as input into Zotero for Step 3:
+* ENZYME_FAMILY_relevant_papers.ris
 
 ## Step 3: Get papers using Zotero
 * Create a new collection in Zotero
