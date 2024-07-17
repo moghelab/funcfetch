@@ -12,7 +12,7 @@ The development of the FuncFetch workflow was funded by the National Science Fou
 # FuncFetch workflow scripts
 
 ## Step 1: Retrieve paper titles and abstracts from PubMed
-* Edit the config file. You can find the template config file in the config folder in this repository.
+Edit the config file. You can find the template config file in the config folder in this repository.
 ```
 [entrez]
 email = ENTER_YOUR_EMAIL
@@ -34,7 +34,7 @@ keywords_list = main_keywordsList.tab
 use_elink = no
 ```
 
-* Run the script
+Run the script
 ```console
 python funcfetch_step1.py --config bahd_step1_efetch.config
 ```
