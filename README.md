@@ -225,5 +225,42 @@ Analysing a Group of Homologous BAHD Enzymes Provides Insights into the Evolutio
 ```
 This file can be opened in Excel to manually curate the rest of the way. This curation can be done in a stepwise manner. You may see the Excel files deposited in the Minimally Curated Sets folder to see how we performed this curation.
 
+## Steps 6 and 7: Add database sequence IDs
+* The process of filtering Step 5 output takes place offline in Excel. The final sheet (ID) can be exported into a tab-delimited format to use the following scripts
+* Before using Step 6, parse the UniProt data files using the scripts in the section below. After you have generated the necessary input files, softlink them to the working directory
+* The working directory should have the following files:
+  ** ENZYMEFAMILY_Minimally_Curated_Set_ID.tsv
+  ** all_families_step1-ncbiSummary.txt (step 1 output)
+  ** merged_uniprot_OrganismMap.txt
+  ** uniprot_trembl_plants_output.txt.geneNames
+  ** uniprot_sprot_plants_output.txt.geneNames
+
+```console
+#The following two scripts will create one *.subset file each
+python funcfetch_step6_checkIDs.py *_ID.tsv uniprot_sprot*.geneNames
+python funcfetch_step6_checkIDs.py *_ID.tsv uniprot_trembl*.geneNames
+
+cat *.subset > merged_uniprot_subset_ENZYMEFAMILY.tab
+
+python funcfetch_step7_re-add-IDs.py merged_uniprot_subset_ENZYMEFAMILY.tab merged_uniprot_OrganismMap.txt all_families_step1-ncbiSummary.txt *_ID.tsv
+```
+* Repeat the steps for each family in a separate folder.
+* The output of step 7 is *.mod, which is a tab-delimited file. It can be copied and pasted back into the Excel file, so as to sort and curate
+* The main columns in this output are the CHECK_flag that compares whether the Species Name derived from the UniProt IDs is the same as the extracted Species name. If it is not, then "NA", "Multiple_species" or "Different_species" tags are given to the row as opposed to the "Same_species" tag. Curators can quickly assign correct UniProt IDs to each row based on these tags. 
+
+## Parse UniProt Dat files
+* Downloaded SwissProt and TrEMBL *.dat format files for Viridiplantae from this link: https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/taxonomic_divisions/
+* Use UniprotDATParser.exe to extract sequence ID names: https://pnnl-comp-mass-spec.github.io/Uniprot-DAT-File-Parser/
+* Process tab-delimited output using the following scripts
+```console
+python uniprotDAT2mytab.py uniprot_trembl_plants.dat
+python uniprotDATaddGeneNames.py uniprot_sprot_plants.dat.gn uniprot_sprot_plants_output.txt
+
+python uniprotDAT2mytab.py uniprot_sprot_plants.dat
+python uniprotDATaddGeneNames.py uniprot_trembl_plants.dat.gn uniprot_trembl_plants_output.txt
+
+cat uniprot_trembl_plants_OrganismMap.txt uniprot_sprot_plants_OrganismMap.txt > merged_uniprot_OrganismMap.txt
+```
+
 ## Questions/concerns
 If you have any questions or concerns, or just want to thank us, email Nathaniel Smith (nss97) or Gaurav Moghe (gdm67). We have Cornell email addresses. 
