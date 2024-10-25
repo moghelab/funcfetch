@@ -236,13 +236,14 @@ This file can be opened in Excel to manually curate the rest of the way. This cu
   ** uniprot_sprot_plants_output.txt.geneNames
 
 ```console
-#The following two scripts will create one *.subset file each
-python funcfetch_step6_checkIDs.py *_ID.tsv uniprot_sprot*.geneNames
-python funcfetch_step6_checkIDs.py *_ID.tsv uniprot_trembl*.geneNames
+#The following two scripts will create one *.subset file each. Each subset file contains only those UniProt entries that match with any of the IDs extracted in the FuncFetch tsv output
+python funcfetch_step6.py *_ID.tsv uniprot_sprot*.geneNames
+python funcfetch_step6.py *_ID.tsv uniprot_trembl*.geneNames
 
 cat *.subset > merged_uniprot_subset_ENZYMEFAMILY.tab
 
-python funcfetch_step7_re-add-IDs.py merged_uniprot_subset_ENZYMEFAMILY.tab merged_uniprot_OrganismMap.txt all_families_step1-ncbiSummary.txt *_ID.tsv
+#This script adds the UniProt, RefSeq and GI IDs back to the FuncFetch output, outputting a *_ID.tsv.mod file
+python funcfetch_step7.py merged_uniprot_subset_ENZYMEFAMILY.tab merged_uniprot_OrganismMap.txt all_families_step1-ncbiSummary.txt *_ID.tsv
 ```
 * Repeat the steps for each family in a separate folder.
 * The output of step 7 is *.mod, which is a tab-delimited file. It can be copied and pasted back into the Excel file, so as to sort and curate
