@@ -183,9 +183,9 @@ python flag_funcfetch_step4_output.py messages.log ENZYME_FAMILY_merge_method.ts
 
 ```
 
-## Step 5: Filter
+## Step 5a: Filter
 ```console
-python funcfetch_step5.py species.taxonomy BAHD_acyltransferase_or_hydroxycinnamoyl_transferase_merge_method.flag.tsv
+python funcfetch_step5a.py species.taxonomy BAHD_acyltransferase_or_hydroxycinnamoyl_transferase_merge_method.flag.tsv
 Reading Species info...
 Parsing FuncFetch output file...
 >>>Missing: Saccharothrix_espanensis --> Taxonomy added as NA
@@ -225,9 +225,9 @@ Analysing a Group of Homologous BAHD Enzymes Provides Insights into the Evolutio
 ```
 This file can be opened in Excel to manually curate the rest of the way. This curation can be done in a stepwise manner. You may see the Excel files deposited in the Minimally Curated Sets folder to see how we performed this curation.
 
-## Steps 6a and 6b: Add database sequence IDs
-* The process of filtering Step 5 output takes place offline in Excel. The final sheet (ID) can be exported into a tab-delimited format to use the following scripts
-* Before using Step 6, parse the UniProt data files using the scripts in the section below. After you have generated the necessary input files, softlink them to the working directory
+## Steps 5b and 5c: Add database sequence IDs
+* The process of filtering Step 5a output takes place offline in Excel. The final sheet (ID) can be exported into a tab-delimited format to use the following scripts
+* Before using Step 5b, parse the UniProt data files using the scripts in the section below. After you have generated the necessary input files, softlink them to the working directory
 * The working directory should have the following files:
   ** ENZYMEFAMILY_Minimally_Curated_Set_ID.tsv
   ** all_families_step1-ncbiSummary.txt (step 1 output)
@@ -237,16 +237,16 @@ This file can be opened in Excel to manually curate the rest of the way. This cu
 
 ```console
 #The following two scripts will create one *.subset file each. Each subset file contains only those UniProt entries that match with any of the IDs extracted in the FuncFetch tsv output
-python funcfetch_step6a.py *_ID.tsv uniprot_sprot*.geneNames
-python funcfetch_step6a.py *_ID.tsv uniprot_trembl*.geneNames
+python funcfetch_step5b.py *_ID.tsv uniprot_sprot*.geneNames
+python funcfetch_step5b.py *_ID.tsv uniprot_trembl*.geneNames
 
 cat *.subset > merged_uniprot_subset_ENZYMEFAMILY.tab
 
 #This script adds the UniProt, RefSeq and GI IDs back to the FuncFetch output, outputting a *_ID.tsv.mod file
-python funcfetch_step6b.py merged_uniprot_subset_ENZYMEFAMILY.tab merged_uniprot_OrganismMap.txt all_families_step1-ncbiSummary.txt *_ID.tsv
+python funcfetch_step5c.py merged_uniprot_subset_ENZYMEFAMILY.tab merged_uniprot_OrganismMap.txt all_families_step1-ncbiSummary.txt *_ID.tsv
 ```
 * Repeat the steps for each family in a separate folder.
-* The output of step 6b is *.mod, which is a tab-delimited file. It can be copied and pasted back into the Excel file, so as to sort and curate
+* The output of step 5c is *.mod, which is a tab-delimited file. It can be copied and pasted back into the Excel file, so as to sort and curate
 * The main columns in this output are the CHECK_flag that compares whether the Species Name derived from the UniProt IDs is the same as the extracted Species name. If it is not, then "NA", "Multiple_species" or "Different_species" tags are given to the row as opposed to the "Same_species" tag. Curators can quickly assign correct UniProt IDs to each row based on these tags. 
 
 ## Parse UniProt Dat files
